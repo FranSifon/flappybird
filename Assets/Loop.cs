@@ -19,9 +19,9 @@ public class Loop : MonoBehaviour
     private void loop()
     {
         transform.Translate(Vector3.left * velocidad * Time.deltaTime);
-        if (transform.position.x<-10)
+        if (transform.position.x<-30)
         {
-            transform.Translate(Vector3.right * 20);
+            transform.Translate(Vector3.right * 60);
         }
     }
 }
