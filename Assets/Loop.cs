@@ -5,6 +5,8 @@ using UnityEngine;
 public class Loop : MonoBehaviour
 {
     private float velocidad = 10;
+    private int puntos = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,5 +25,11 @@ public class Loop : MonoBehaviour
         {
             transform.Translate(Vector3.right * 60);
         }
+        if (transform.position.x <= -6)
+        {
+            puntos++;
+            
+        }
+        Debug.Log(puntos);
     }
 }
