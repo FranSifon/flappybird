@@ -13,6 +13,14 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.y < -4)
+        {
+            Destroy(gameObject);
+        }
+        if (transform.position.y > 4)
+        {
+            transform.position = new Vector3(transform.position.x, 4, transform.position.z);
+        }
         saltar();
     }
     private void saltar()

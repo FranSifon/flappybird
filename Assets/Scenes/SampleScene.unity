@@ -193,6 +193,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tuberia (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3368119493421416008, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3368119493421416011, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -502,6 +507,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tuberia (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3368119493421416008, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3368119493421416011, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -580,6 +590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tuberia (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3368119493421416008, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3368119493421416011, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
         type: 3}
@@ -660,6 +675,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tuberia (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3368119493421416008, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3368119493421416011, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -739,6 +759,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tuberia (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3368119493421416008, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3368119493421416011, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -817,6 +842,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tuberia
+      objectReference: {fileID: 0}
+    - target: {fileID: 3368119493421416008, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3368119493421416011, guid: d8cb2b56a7fa2da429eca9b4b1b29b3c,
         type: 3}
