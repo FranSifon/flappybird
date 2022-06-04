@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimeManager : MonoBehaviour
 {
@@ -12,6 +13,11 @@ public class TimeManager : MonoBehaviour
        
         txt_timeFloored.text = Mathf.Floor(currentTime).ToString();
 
-
+        if (Time.time == 10)
+        {
+            Destroy(gameObject);
+            Time.timeScale = 0f;
+            SceneManager.LoadScene("FinalWin");
+        }
     }
 }

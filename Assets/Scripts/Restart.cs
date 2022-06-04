@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Collision : MonoBehaviour
+public class Restart : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,9 +16,9 @@ public class Collision : MonoBehaviour
     {
         
     }
-
-    private void OnTriggerEnter (Collider other)
+    public void RestartGame()
     {
-        Destroy(gameObject);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+        
     }
 }

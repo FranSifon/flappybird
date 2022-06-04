@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class Restart : MonoBehaviour
+public class Collision : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
+        Destroy(gameObject);
+        Time.timeScale = 0f;
+        SceneManager.LoadScene("FinalLose");
         
     }
-    public void RestartGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        Time.timeScale = 0f;
-    }
+   
+
+
+
+   
 }
