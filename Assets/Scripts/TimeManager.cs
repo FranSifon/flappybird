@@ -13,7 +13,7 @@ public class TimeManager : MonoBehaviour
         currentTime = Time.timeSinceLevelLoad;
        
         txt_timeFloored.text = Mathf.Floor(currentTime).ToString();
-        if(currentTime > 2)
+        if(currentTime > 20)
         {
             SceneManager.LoadScene("FinalWin");
         }
