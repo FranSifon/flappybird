@@ -6,18 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class TimeManager : MonoBehaviour
 {
-   public Text txt_timeFloored;
+    public Text txt_timeFloored;
+    float currentTime;
     void Update()
     {
-        float currentTime = Time.time;
+        currentTime = Time.timeSinceLevelLoad;
        
         txt_timeFloored.text = Mathf.Floor(currentTime).ToString();
-
-        if (Time.time == 10)
+        if(currentTime > 2)
         {
-            Destroy(gameObject);
-            Time.timeScale = 0f;
             SceneManager.LoadScene("FinalWin");
         }
+      
     }
 }
