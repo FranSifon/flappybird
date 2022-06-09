@@ -13,10 +13,11 @@ public class Collision : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        source.clip = Muerte;
+        source.Play();
         Destroy(gameObject);
         Time.timeScale = 0f;
         SceneManager.LoadScene("FinalLose");
-        source.clip = Muerte;
 
     }
    
