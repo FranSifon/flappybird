@@ -122,6 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbeeecd491abce14c8bb7244f290ef68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Saltito: {fileID: 8300000, guid: 5017ad8314fade1489c43453c1e746a4, type: 3}
 --- !u!114 &2624208431936770723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,4 +135,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3122c9f9af0c9974a8092af1888f17ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsAlive: 1
+  Muerte: {fileID: 8300000, guid: 33daf818ba41a78408b8fab5131f6c2f, type: 3}

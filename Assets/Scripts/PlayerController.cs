@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    AudioSource source;
+    public AudioClip Saltito;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,6 +33,7 @@ public class PlayerController : MonoBehaviour
             Rigidbody rb = GetComponent<Rigidbody>();
             rb.velocity = Vector3.zero;
             rb.AddForce(Vector3.up * 300f);
+            source.clip = Saltito;
         }
     }
 }
