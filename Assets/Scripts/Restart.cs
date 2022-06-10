@@ -16,6 +16,7 @@ public class Restart : MonoBehaviour
     {
         
     }
+    // Con este void reinicio el juego, loadeando la escena del juego y poniendo el tiempo en 1 de vuelta
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);

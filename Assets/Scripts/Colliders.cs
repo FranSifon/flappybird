@@ -7,7 +7,7 @@ public class Colliders : MonoBehaviour
     AudioSource source;
     public AudioClip Muerte;
     public bool Isplaying;
-    // Start is called before the first frame update
+    
     void Start()
     {
         Isplaying = false;
