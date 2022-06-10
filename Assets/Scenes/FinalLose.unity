@@ -709,7 +709,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Has perdido :(((\nMuchas gracias por jugar\nToca el bot\xF3n para ir al
-    menu y jugar de vuelta"
+    menu y jugar de vuelta \nO toca el bot\xF3n clonar para crear cubos"
 --- !u!222 &1207057688
 CanvasRenderer:
   m_ObjectHideFlags: 0
